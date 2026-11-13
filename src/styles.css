@@ -248,9 +248,11 @@ button:not(:disabled):active {
   display: block;
 }
 .title-star {
-  font-family: Arial, sans-serif;
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
   font-size: 66px;
-  vertical-align: middle;
+  vertical-align: -0.04em;
   margin-left: 12px;
   color: var(--accent-soft);
   font-weight: 500;

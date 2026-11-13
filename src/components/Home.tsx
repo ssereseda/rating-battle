@@ -17,6 +17,7 @@ import type { Show } from '../lib/data';
 import { numberText, ratingText } from '../lib/data';
 import type { Stats } from '../lib/storage';
 import { Poster } from './Poster';
+import { ArcadeStar } from './ArcadeStar';
 export function Home({
   shows,
   stats,
@@ -47,7 +48,8 @@ export function Home({
           <h1 aria-label="РЕЙТИНГ-БАТТЛ">
             РЕЙТИНГ
             <span className="accent">
-              БАТТЛ<span className="title-star">✳</span>
+              БАТТЛ
+              <ArcadeStar className="title-star" />
             </span>
           </h1>
           <h2>
@@ -88,7 +90,7 @@ export function Home({
           <div className="art-stage">
             <div className="orbital orbital-one" />
             <div className="orbital orbital-two" />
-            <span className="art-star star-one">✳</span>
+            <ArcadeStar className="art-star star-one" />
             <span className="art-star star-two">+</span>
             <div className="floating-tag tag-top">
               <Sparkles size={15} /> 50 культовых сериалов
