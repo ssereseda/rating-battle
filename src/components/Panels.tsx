@@ -66,7 +66,7 @@ export function AchievementPanel({ stats }: { stats: Stats }) {
   return (
     <>
       <p className="muted">
-        Открыто <strong className="lime">{count} из 7</strong> достижений
+        Открыто <strong className="accent">{count} из 7</strong> достижений
       </p>
       <div className="progress-track">
         <div style={{ width: `${(count / 7) * 100}%` }} />

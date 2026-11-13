@@ -276,7 +276,7 @@ export default function App() {
         <h1>РЕЙТИНГ-БАТТЛ</h1>
         {error ? (
           <>
-            <Medal className="pink-text" size={34} />
+            <Medal className="accent-soft-text" size={34} />
             <h2>Не удалось загрузить сериалы</h2>
             <p role="alert">{error}</p>
             <p className="muted">Проверь соединение и наличие исходного CSV в папке приложения.</p>

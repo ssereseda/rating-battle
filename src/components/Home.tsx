@@ -46,7 +46,7 @@ export function Home({
           </div>
           <h1 aria-label="РЕЙТИНГ-БАТТЛ">
             РЕЙТИНГ
-            <span className="lime">
+            <span className="accent">
               БАТТЛ<span className="title-star">✳</span>
             </span>
           </h1>
@@ -174,7 +174,7 @@ export function Home({
         </div>
         <div className="feature-grid">
           <article>
-            <div className="feature-icon green">
+            <div className="feature-icon primary-tone">
               <ArrowUp />
               <ArrowDown />
             </div>
@@ -189,7 +189,7 @@ export function Home({
             <span className="feature-number">01</span>
           </article>
           <article>
-            <div className="feature-icon pink">
+            <div className="feature-icon soft-tone">
               <Zap />
             </div>
             <div>
@@ -202,7 +202,7 @@ export function Home({
             <span className="feature-number">02</span>
           </article>
           <article>
-            <div className="feature-icon purple">
+            <div className="feature-icon neutral-tone">
               <ShieldCheck />
             </div>
             <div>

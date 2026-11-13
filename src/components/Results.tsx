@@ -29,7 +29,7 @@ export function Results({
         </div>
         <span className="eyebrow">ЭТО БЫЛ ДОСТОЙНЫЙ БАТТЛ</span>
         <h1>
-          ИГРА <span className="lime">ОКОНЧЕНА</span>
+          ИГРА <span className="accent">ОКОНЧЕНА</span>
         </h1>
         {newRecord && (
           <motion.div className="new-record" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>

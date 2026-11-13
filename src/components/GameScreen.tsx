@@ -75,7 +75,8 @@ export function GameScreen({
         <div className="eyebrow">РАУНД {g.correct + g.mistakes + (revealed ? 0 : 1)}</div>
         <h1>
           У второго сериала рейтинг
-          <br /> <span className="lime">выше</span> или <span className="pink-text">ниже</span>?
+          <br /> <span className="accent">выше</span> или{' '}
+          <span className="accent-soft-text">ниже</span>?
         </h1>
       </div>
       <div className="battle-field">
@@ -190,7 +191,7 @@ export function GameScreen({
               )}
             </h2>
             {result?.earnedShield && (
-              <p className="lime">
+              <p className="accent">
                 <ShieldCheck size={17} />
                 ЩИТ ПОЛУЧЕН!
               </p>
